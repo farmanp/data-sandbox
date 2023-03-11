@@ -1,0 +1,27 @@
+# Python-specific
+*.pyc
+*.pyo
+__pycache__/
+
+# Virtual environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+.venv.bak/
+pipenv.lock
+pipfile.lock
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.komodoproject
+komodo_*
+
+# Miscellaneous
+.DS_Store
+Thumbs.db
