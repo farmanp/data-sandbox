@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "data-sandbox"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "data_sandbox"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+apache-airflow = "2.5.0"
+kafka-python = "2.0.2"
+elasticsearch = "^7.0"
+beam = "0.6.0"
+flink = "1.0"
+logstash = "0.1.dev0"
+kibana = "0.7"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
